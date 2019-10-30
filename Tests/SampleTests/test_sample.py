@@ -1,9 +1,6 @@
-from Pages.SimpleFunction import Simple
-import pytest
-
 
 class SampleTests:
-
     def test_func(self):
-        sam=Simple()
-        assert sam.func(3)==3
+        from Pages.SimpleFunction import Simple
+        sim =Simple()
+        assert sim.func(3)==3

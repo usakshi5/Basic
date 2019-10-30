@@ -1,3 +1,3 @@
 class Simple:
-    def func(x):
-        return x+1
+    def func(self):
+        return 3
