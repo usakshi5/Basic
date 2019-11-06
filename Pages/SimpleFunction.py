@@ -1,3 +1,6 @@
+def func(x):
+    return x+1
+
+
 class Simple:
-    def func(self):
-        return 3
+    pass
